@@ -1,20 +1,15 @@
 {
-    "format_version": "1.20",
-    "minecraft:recipe_shaped": {
-        "description": {
-            "identifier": "minecraft:netherrack_slab"
-            },
-        "tags": [ "crafting_table" ],
-        "pattern": [
-            "###"
-            ],
-        "key": {
-            "#": {
-                "item": "minecraft:netherrack"
-            }
-        },
-        "result": {
-            "item": "minecraft:netherrack_slab"
-            }
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:netherrack"
         }
+    },
+    "result": {
+        "count": 6,
+        "item": "minecraft:netherrack_stair"
     }
+}
